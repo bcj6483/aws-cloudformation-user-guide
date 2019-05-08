@@ -194,7 +194,7 @@ A list of tags associated with a cluster\.
 *Update requires*: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
 
 `VisibleToAllUsers`  <a name="cfn-elasticmapreduce-cluster-visibletoallusers"></a>
-Indicates whether the cluster is visible to all IAM users of the AWS account associated with the cluster\. The default value, `true`, indicates that all IAM users in the AWS account can perform cluster actions if they have the proper IAM policy permissions\. If this value is `false`, only the IAM user that created the cluster can perform actions\. This value can be changed on a running cluster by using the action\. You can override the default value of `true` when you create a cluster by using the `VisibleToAllUsers` parameter of the `RunJobFlow` action\.  
+Indicates whether the cluster is visible to all IAM users of the AWS account associated with the cluster\. The default value, `false`, indicates that all IAM users in the AWS account can perform cluster actions if they have the proper IAM policy permissions\. If this value is `false`, only the IAM user that created the cluster can perform actions\. This value can be changed on a running cluster by using the action\. You can override the default value of `false` when you create a cluster by using the `VisibleToAllUsers` parameter of the `RunJobFlow` action\.  
 *Required*: No  
 *Type*: Boolean  
 *Update requires*: [No interruption](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/using-cfn-updating-stacks-update-behaviors.html#update-no-interrupt)
